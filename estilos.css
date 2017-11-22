@@ -6,11 +6,19 @@
 	font-family: "Open Sans";
 }
 
+div#logo{
+	background-image:url(img/logo2.jpg); 
+	width: 150px;
+	height: 178px;
+}
+
+
 header{
 	width: auto;
-	height: 60px;
-	background: #f7f709;
+	height: 178px;
+	background: #004589;
 	display: flex;
+
 }
 
 header ul{
@@ -20,9 +28,10 @@ header ul{
 
 header ul li a{
 	display: block;
-	padding: 20px 20px;
-	color: #0a0ef5;
+	padding: 45px 45px;
+	color: #f7f709;
 	text-decoration: none;
+	font-size: 19px;
 }
 
 header ul ul{
@@ -60,8 +69,8 @@ div#banner{
 
 div#body{
 	margin: auto;
-	margin-top: 60px;
-	margin-bottom: 100px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	width:1330px;
 	height:300px;
 	border:1px solid black 
@@ -86,10 +95,13 @@ body {
 		background-color: #bab8b0;
 	}
 
+
 .slider {
-	width: 95%;
+	/*width: 95%; */
 	margin: auto;
 	overflow: hidden;
+	width: 1320px; 
+	height: 300px;
 }
 
 .slider ul {
@@ -110,20 +122,40 @@ body {
 }
 
 @keyframes cambio {
-	0% { margin-left: 0; }
-	20% { margin-left: 0; }
-
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
 	25% {margin-left: -100%;}
 	45% {margin-left: -100%;}
-
- 	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}	
-
-	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}	
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -200%;}
+	100% {margin-left: -200%;}
 }
 
 
+#gato {
+	display: inline-block;
+	width: 300px; 
+	height: 200px;
+	float: left;
+}
 
+h1 {
+	font-size: 28px;
+	font: Helvetica;
+	margin: auto;
+}
 
+article {
 
+	border: 1px;
+	display: block;
+	width: auto;
+	margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+    
+}
